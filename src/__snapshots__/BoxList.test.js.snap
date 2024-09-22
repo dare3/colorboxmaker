@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BoxList component 1`] = `
+<DocumentFragment>
+  <div
+    class="box-list"
+  >
+    <h2>
+      Create a New Box
+    </h2>
+    <form>
+      <label
+        for="width"
+      >
+        Width:
+      </label>
+      <input
+        id="width"
+        name="width"
+        type="text"
+        value=""
+      />
+      <label
+        for="height"
+      >
+        Height:
+      </label>
+      <input
+        id="height"
+        name="height"
+        type="text"
+        value=""
+      />
+      <label
+        for="backgroundColor"
+      >
+        Background Color:
+      </label>
+      <input
+        id="backgroundColor"
+        name="backgroundColor"
+        type="text"
+        value=""
+      />
+      <button>
+        Add Box
+      </button>
+    </form>
+    <div
+      class="boxes-container"
+    />
+  </div>
+</DocumentFragment>
+`;

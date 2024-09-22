@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
+import BoxList from './BoxList';
 
-test('renders App component', () => {
-  const { asFragment } = render(<App />);
+test('renders BoxList component', () => {
+  const { asFragment } = render(<BoxList />);
   expect(asFragment()).toMatchSnapshot();
 });
